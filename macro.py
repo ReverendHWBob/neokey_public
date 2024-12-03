@@ -28,8 +28,8 @@ class macroM:
         app = {
             'name': "some descriptive Name",
             'macros': [
-                    ( 0xFF00FF, "When you press my Key" ),
-                    ( 0x00FF00, "When you touch me" ),
+                    ( 0xFF00FF, "Key Pressed" ),
+                    ( 0x00FF00, "Touch Pressed" ),
             ],
         }
         return app
